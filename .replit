@@ -1,0 +1,8 @@
+modules = ["nodejs-20"]
+[nix]
+packages = ["unzipNLS"]
+
+[[ports]]
+localPort = 5173
+externalPort = 80
+exposeLocalhost = true
